@@ -1,0 +1,35 @@
+// const [list, setList] = useState<Item[]>([]);
+
+  // const addNewItem = (text: string) => { // Função para adicionar um novo item
+  //   setList([ ...list, {
+  //     id:list.length,
+  //     text,
+  //     done: false
+  //   } ]);
+  // }
+
+  // const editItemText = (id: number, newText: string) => { // Adição do novo texto 
+  //   setList (
+  //     list.map((t) => {
+  //       if(t.id === id) {
+  //         t.text = newText;
+  //       }
+  //       return t;
+  //     })
+  //   )
+  // }
+
+  // const toggleItem = (id: number) => { // Toggle para alterar o status para finalizado
+  //   setList (
+  //     list.map((t) => {
+  //       if(t.id === id) {
+  //         t.done = !t.done;
+  //       }
+  //       return t;
+  //     })
+  //   )
+  // }
+
+  // const removeItem = (id: number) => { // Função para remover o item
+  //   setList(list.filter((t) => t.id !== id));
+  // }
